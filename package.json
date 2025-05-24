@@ -1,0 +1,22 @@
+{
+  "name": "project-nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheusccp2/project-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheusccp2/project-nodejs/issues"
+  },
+  "homepage": "https://github.com/Matheusccp2/project-nodejs#readme",
+  "description": ""
+}
