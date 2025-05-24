@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
     "url": "https://github.com/Matheusccp2/project-nodejs/issues"
   },
   "homepage": "https://github.com/Matheusccp2/project-nodejs#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "fastify": "^5.3.3"
+  }
 }
