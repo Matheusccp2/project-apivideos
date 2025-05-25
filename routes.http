@@ -1,0 +1,27 @@
+POST https://project-apivideos.onrender.com/videos
+Content-Type: application/json
+
+{
+    "title": "Video 02",
+    "description": "Meu primeiro video",
+    "duration": 130
+}
+
+###
+
+GET https://project-apivideos.onrender.com/videos?search=
+
+###
+
+PUT https://project-apivideos.onrender.com/videos/eff20db6-4d56-4cb3-8aa3-a8a5ffc39e38
+Content-Type: application/json
+
+{
+    "title": "Video 1",
+    "description": "Meu primeiro video",
+    "duration": 150
+}
+
+###
+
+DELETE https://project-apivideos.onrender.com/videos/2fa766c8-e5c0-4f64-ac52-deebd13f2394
