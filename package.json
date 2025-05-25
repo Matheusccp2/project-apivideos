@@ -21,6 +21,8 @@
   "homepage": "https://github.com/Matheusccp2/project-nodejs#readme",
   "description": "",
   "dependencies": {
+    "@fastify/swagger": "^9.5.1",
+    "@fastify/swagger-ui": "^5.2.2",
     "fastify": "^5.3.3",
     "postgres": "^3.4.7",
     "project-nodejs": "file:"
